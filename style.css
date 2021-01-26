@@ -63,6 +63,11 @@ main {
   padding-left: 10px;
 }
 
+.right-side-bar-text-card a {
+  text-decoration: none;
+  color: black;
+}
+
 .middle-nav {
   margin: 0 35px;
   border-bottom: 1px solid lightgray;
@@ -73,14 +78,28 @@ main {
   padding: 0 10px;
   height: 30px;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.sponsore-card a {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .middle-nav ul li a {
@@ -101,14 +120,13 @@ main {
   padding: 0 10px;
   height: 30px;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .last-nav ul li a {
@@ -149,19 +167,18 @@ footer .footer-brand {
 
 footer .logo-social {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 footer .logo-social .copy-right {
   -ms-flex-item-align: end;
-      align-self: flex-end;
+  align-self: flex-end;
   padding-bottom: 20px;
   padding-left: 10px;
   font-size: 0.7em;
@@ -170,8 +187,8 @@ footer .logo-social .copy-right {
 footer .row {
   padding: 0;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 footer .middl-footer-links ul li .items2 {
@@ -197,14 +214,13 @@ footer i {
   border-right: 1px solid lightgray;
   height: 20px;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .last-footer-links .nav .nav-item .nav-link {
@@ -276,8 +292,8 @@ footer i {
 
 .inner-div {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .inner-div .card-img {
@@ -308,15 +324,14 @@ footer i {
   border: 1px solid lightgray;
   background-color: #e6e6e6;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   width: 80%;
   margin: 0 auto;
 }
@@ -338,14 +353,13 @@ footer i {
 .form-row {
   margin-left: 20px;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .form-logo {
@@ -356,30 +370,9 @@ footer i {
   border: 1px solid lightgray;
 }
 
-.right-side-bar-text-card a {
-  text-decoration: none;
-  color: black;
-}
-
 .right-side-bar-text-card a h3 {
   font-weight: 700;
   font-size: 1.5em;
-}
-
-.sponsore-card a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 .sponsore-card a img {
@@ -394,28 +387,34 @@ footer i {
   .time {
     display: none;
   }
+
   .brand-name {
     display: none;
   }
+
   .middle-nav {
     display: none;
   }
+
   .mobile-log {
     display: inline-block;
     font-weight: 800;
     font-size: 1.5em;
     font-family: 'Merriweather', serif;
   }
+
   .logo-nav {
     width: 100vw;
     height: 40px;
     padding: 0 10px;
   }
+
   .subscribe {
     padding: 0;
     font-size: 0.8em;
     color: black;
   }
+
   .login {
     font-weight: 600;
     font-size: 0.8em;
@@ -425,50 +424,55 @@ footer i {
 @media screen and (max-width: 768px) {
   .righ-sidebar {
     -webkit-box-ordinal-group: 4;
-        -ms-flex-order: 3;
-            order: 3;
+    -ms-flex-order: 3;
+    order: 3;
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
+
   .login {
     display: none;
   }
+
   .subscribe {
     padding: 0;
     font-size: 0.8em;
     color: black;
   }
+
   .mobile-log {
     font-size: 1em;
     font-weight: 700;
     font-family: 'Merriweather', serif;
   }
+
   .user {
     display: inline-block;
   }
+
   .hamburger {
     display: inline-block;
   }
+
   .featured {
     -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
+    -ms-flex-order: 2;
+    order: 2;
   }
+
   .middle-section {
     -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
+    -ms-flex-order: 1;
+    order: 1;
   }
 }
-/*# sourceMappingURL=style.css.map */
