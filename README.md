@@ -4,7 +4,7 @@
 
 > This project consists of making a copy of the Newsweek website putting emphasis on bootstrap usage.
 
-![screenshot](./assets/images/screenshot.PNG)
+![screenshot](assets/images/screenshot2.PNG)
 
 This replica of the Next Website navigation and footer using bootstap.
 
