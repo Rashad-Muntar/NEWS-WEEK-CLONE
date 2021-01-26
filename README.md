@@ -17,7 +17,7 @@ This replica of the Next Website navigation and footer using bootstap.
 
 ## Live Demo
 
-[Live Demo Link](https://rashad-muntar.github.io/New-Week-Clone/)
+[Live Demo Link](https://rashad-muntar.github.io/NEWS-WEEK-CLONE/)
 
 
 ## Author
