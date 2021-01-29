@@ -5,18 +5,6 @@ body {
   margin: 0 auto;
 }
 
-img {
-  cursor: pointer;
-}
-
-.card h5 {
-  cursor: pointer;
-}
-
-.card h3 {
-  cursor: pointer;
-}
-
 .main {
   width: 85vw;
   margin: 0 auto;
@@ -133,6 +121,18 @@ footer .middl-footer-links .nav-link {
   padding: 6px 20px;
   font-weight: 600;
   border-radius: 50px;
+}
+
+img {
+  cursor: pointer;
+}
+
+.card h5 {
+  cursor: pointer;
+}
+
+.card h3 {
+  cursor: pointer;
 }
 
 .last-nav {
@@ -565,6 +565,49 @@ footer .socials {
   padding-left: 60px;
 }
 
+@media screen and (max-width: 1024px) {
+  .main {
+    width: 100vw;
+  }
+
+  .last-nav .nav-item .nav-link {
+    font-size: 0.9em;
+  }
+
+  .middle-nav .nav-item .nav-link {
+    font-size: 0.8em;
+  }
+
+  .middle-nav {
+    width: 100vw;
+  }
+
+  .last-nav {
+    width: 100vw;
+  }
+
+  .news-letter .card-body {
+    margin-left: 35px;
+  }
+
+  .news-wrapper .biden .card-body {
+    padding-left: 65px;
+  }
+
+  .margazine-wrapper {
+    width: 100vw;
+  }
+
+  .article-wrapper {
+    width: 100vw;
+  }
+
+  .news-wrapper {
+    width: 100vw;
+    padding: 0 20px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .navbar-brand {
     display: none;
@@ -608,12 +651,12 @@ footer .socials {
   }
 
   .news-letter .card-body {
-    margin-left: 120px;
+    margin-left: 70px;
   }
 
   .news-letter .new-letter-card-img {
-    width: 319px;
-    height: 236px;
+    width: 252px;
+    height: 200px;
   }
 
   .news-wrapper .default-card img {
@@ -815,8 +858,8 @@ footer .socials {
   }
 
   .news-letter .new-letter-card-img {
-    width: 103%;
-    height: 177px;
+    width: 100%;
+    height: 235px;
   }
 
   .news-letter .card-body form input {
