@@ -4,7 +4,7 @@
 
 > This project consists of making a copy of the Newsweek website putting emphasis on bootstrap usage.
 
-![screenshot](./assets/images/screenshot.PNG)
+![screenshot](./assets/images/screenshot3.PNG)
 
 This replica of the Next Website navigation and footer using bootstap.
 
@@ -17,7 +17,7 @@ This replica of the Next Website navigation and footer using bootstap.
 
 ## Live Demo
 
-[Live Demo Link](https://rashad-muntar.github.io/New-Week-Clone/)
+[Live Demo Link](https://rashad-muntar.github.io/NEWS-WEEK-CLONE/)
 
 
 ## Author
