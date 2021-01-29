@@ -5,6 +5,18 @@ body {
   margin: 0 auto;
 }
 
+img {
+  cursor: pointer;
+}
+
+.card h5 {
+  cursor: pointer;
+}
+
+.card h3 {
+  cursor: pointer;
+}
+
 .main {
   width: 85vw;
   margin: 0 auto;
@@ -553,15 +565,13 @@ footer .socials {
   padding-left: 60px;
 }
 
-@media screen and (max-width: 1024px) {
-  .news-wrapper .biden .card-body {
-    padding-left: 65px;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .navbar-brand {
     display: none;
+  }
+
+  .logo-nav {
+    width: 100vw;
   }
 
   .navigation .time {
@@ -569,7 +579,7 @@ footer .socials {
   }
 
   .login {
-    display: none;
+    display: block;
   }
 
   .hamburger {
@@ -584,14 +594,36 @@ footer .socials {
     margin-top: 70px;
   }
 
+  .right .right-sponsored .img-container {
+    height: 320px;
+  }
+
   .horicard img {
     width: 15%;
+  }
+
+  .news-letter {
+    height: 236px;
+    border: 1px solid lightgray;
+  }
+
+  .news-letter .card-body {
+    margin-left: 120px;
+  }
+
+  .news-letter .new-letter-card-img {
+    width: 319px;
+    height: 236px;
   }
 
   .news-wrapper .default-card img {
     height: 100px;
     width: 100px;
     padding-right: 20px;
+  }
+
+  .news-wrapper .horizontal-card h5 {
+    font-size: 1.2em;
   }
 
   .horicard .body-text h5 {
@@ -619,12 +651,20 @@ footer .socials {
     width: 93vw;
   }
 
+  .news-wrapper .biden .card-body {
+    padding-left: 1px;
+  }
+
   .margazine-wrapper .mini-card img {
-    height: 191px;
+    height: 196px;
   }
 
   .margazine-wrapper .main-img .img-container img {
-    height: 80%;
+    height: 100%;
+  }
+
+  .horizontal-card-wraper .card .img-cont img {
+    width: 145%;
   }
 
   footer .footer-brand {
@@ -637,11 +677,43 @@ footer .socials {
 }
 
 @media screen and (max-width: 486px) {
+  .hide-on-desktop .img-cont img {
+    height: 70%;
+    width: 120px;
+  }
+
+  .news-wrapper .biden img {
+    height: 241px;
+    width: 250px;
+  }
+
+  .margazine-wrapper .main-img .img-container img {
+    height: 100%;
+  }
+
+  .margazine-wrapper .main-img .img-container {
+    height: 340px;
+  }
+
+  .horizontal-card-wraper .card .img-cont img {
+    width: 123%;
+  }
+
   .logo-nav .subscribe {
     color: black;
     padding: 6px 10px;
     font-weight: 600;
     font-size: 0.8em;
+  }
+
+  .news-letter .card-body .card-title {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .news-letter .card-body .card-text {
+    font-size: 0.9em;
+    text-align: center;
   }
 
   .row > * {
@@ -671,11 +743,6 @@ footer .socials {
 
   .login {
     display: none;
-  }
-
-  .hide-on-desktop .img-cont img {
-    height: 70%;
-    width: 120px;
   }
 
   .row {
@@ -718,7 +785,7 @@ footer .socials {
   }
 
   .news-wrapper {
-    width: 93vw;
+    width: 98vw;
     padding: 0;
   }
 
@@ -733,13 +800,8 @@ footer .socials {
     text-align: center;
   }
 
-  .news-wrapper .biden img {
-    height: 220px;
-    width: 300px;
-  }
-
   .news-wrapper .biden h5 {
-    font-size: 0.9em;
+    font-size: 1.1em;
     width: 100%;
   }
 
@@ -753,29 +815,17 @@ footer .socials {
   }
 
   .news-letter .new-letter-card-img {
-    width: 100%;
-    height: 240px;
-  }
-
-  .news-letter .card-body form {
-    display: flex;
-    height: 70px;
-    justify-content: center;
-    align-items: center;
-    padding: 0 30px;
+    width: 103%;
+    height: 177px;
   }
 
   .news-letter .card-body form input {
     height: 40px;
   }
 
-  .news-letter .card-body form button {
-    height: 40px;
-    margin-bottom: 15px;
-  }
-
   .news-letter .card-body {
     padding: 0;
+    margin-left: 1px;
   }
 
   .main {
@@ -810,6 +860,7 @@ footer .socials {
 
   .logo-nav {
     width: 100%;
+    padding: 0 15px;
   }
 }
 
