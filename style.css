@@ -602,11 +602,11 @@ footer .socials {
   }
 
   .last-nav .nav-item .nav-link {
-    font-size: 0.7em;
+    font-size: 0.9em;
   }
 
   .middle-nav .nav-item .nav-link {
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
 
   .middle-nav {
@@ -636,6 +636,9 @@ footer .socials {
   .news-wrapper {
     width: 100vw;
     padding: 0 20px;
+  }
+  .logo-nav {
+    width: 100%;
   }
 }
 
