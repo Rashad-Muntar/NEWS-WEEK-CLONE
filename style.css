@@ -1,6 +1,7 @@
 body {
   padding: 0;
   background-color: rgb(246, 253, 255);
+  max-width: 100%;
   overflow-x: hidden;
   margin: 0 auto;
 }
@@ -10,6 +11,7 @@ body {
   margin: 0 auto;
   background-color: white;
   padding: 0 25px;
+  overflow-x: hidden;
 }
 
 .left {
@@ -78,7 +80,6 @@ body {
 .middle-nav .nav-item {
   border-right: 1px solid lightgray;
   height: 20px;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -90,9 +91,6 @@ footer .last-footer-links .nav-link {
   margin: 0;
   border-right: 1px solid lightgray;
   height: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 10px;
 }
 
@@ -104,9 +102,6 @@ footer .middl-footer-links .nav-link {
   margin: 0;
   border-right: 1px solid lightgray;
   height: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .middle-nav .nav-item .nav-link {
@@ -142,7 +137,6 @@ img {
 
 .last-nav .nav-item {
   height: 20px;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -184,7 +178,6 @@ img {
 .card .img-container {
   height: 200px;
   position: relative;
-  display: flex;
   justify-content: flex-start;
 }
 
@@ -241,6 +234,10 @@ img {
 
 .min-card-row .card {
   border: none;
+}
+
+.news-letter .card-body {
+  margin-left: 50px;
 }
 
 .min-card-row .card .card-body {
@@ -304,9 +301,6 @@ img {
   width: 90%;
   margin: 0 auto;
   padding: 10px 20px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
 }
 
 .right-sponsored .right-side-form .form-label {
@@ -368,11 +362,6 @@ img {
   font-weight: 700;
 }
 
-.margazine-wrapper .main-img .card-body {
-  display: flex;
-  justify-content: center;
-}
-
 .margazine-wrapper .main-img .img-container {
   height: 290px;
 }
@@ -424,9 +413,6 @@ img {
 /* article section  */
 
 .headings {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 50px;
   margin: 0;
   padding: 0;
@@ -501,6 +487,10 @@ section .heading-img {
   height: 270px;
 }
 
+.card-img .card-img-bottom .card-img-top {
+  width: 100%;
+}
+
 .news-letter .card-body .card-title {
   font-size: 1.5em;
   font-weight: 700;
@@ -511,7 +501,7 @@ section .heading-img {
 }
 
 .news-letter .card-body form input {
-  width: 170px;
+  width: 130px;
 }
 
 .news-letter .card-body form button {
@@ -565,17 +555,58 @@ footer .socials {
   padding-left: 60px;
 }
 
+@media screen and (max-width: 1300px) {
+  .main {
+    width: 99vw;
+  }
+
+  .news-letter .card-body {
+    margin-left: 40px;
+  }
+
+  .news-wrapper .biden .card-body {
+    padding-left: 40px;
+  }
+
+  .middle-nav .nav-item .nav-link {
+    font-size: 0.9em;
+    padding: 10px;
+  }
+
+  .last-nav .nav-item .nav-link {
+    font-size: 0.9em;
+    padding: 0 7px;
+  }
+
+  .margazine-wrapper {
+    width: 100vw;
+  }
+
+  .article-wrapper {
+    width: 100vw;
+  }
+
+  .news-wrapper {
+    width: 100vw;
+    padding: 0 20px;
+  }
+}
+
+.news-wrapper .biden .card-body {
+  padding-left: 50px;
+}
+
 @media screen and (max-width: 1024px) {
   .main {
     width: 100vw;
   }
 
   .last-nav .nav-item .nav-link {
-    font-size: 0.9em;
+    font-size: 0.7em;
   }
 
   .middle-nav .nav-item .nav-link {
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
 
   .middle-nav {
