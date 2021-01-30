@@ -35,10 +35,6 @@ body {
   color: white;
 }
 
-.logo-nav time {
-  color: white;
-}
-
 .logo-nav .navbar-brand {
   font-size: 4em;
   font-weight: 900;
@@ -176,9 +172,19 @@ img {
 /* ****left side bar styling***** */
 
 .card .img-container {
-  height: 200px;
+  height: 165px;
   position: relative;
   justify-content: flex-start;
+}
+
+.horicard img {
+  width: 15%;
+  border-radius: 100px;
+  margin-right: 20px;
+}
+
+.card .img-container img {
+  height: 100%;
 }
 
 .left .borderless {
@@ -279,12 +285,6 @@ img {
 .right .opinion .horicard {
   border-bottom: 1px solid lightgray;
   padding: 10px 0;
-}
-
-.horicard img {
-  width: 15%;
-  border-radius: 100px;
-  margin-right: 20px;
 }
 
 .horicard .body-text {
